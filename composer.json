@@ -1,0 +1,27 @@
+{
+    "name": "twifty/path",
+    "description": "Collection of common methods for dealing with filesystem paths.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Owen Parry",
+            "email": "waldermort@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Twifty\\Filesystem\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Twifty\\Filesystem\\Test\\": "tests/"
+        }
+    }
+}
